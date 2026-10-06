@@ -8,6 +8,8 @@ The system uses Fresnel lenses to concentrate sunlight onto an integrated receiv
 
 The project combines **optical design, mechanical system design, solar tracking, photovoltaic integration, prototype development, and TracePro-based ray-tracing simulation**.
 
+> **Release status:** This repository is an engineering portfolio and technical overview containing selected design, prototype, and simulation results. The complete design package is not included.
+
 ---
 
 ## Project Overview
@@ -56,9 +58,9 @@ When natural illumination is insufficient, the stored electrical energy can supp
 
 ---
 
-# System Design
+## System Design
 
-## 1. Solar Collection Module
+### 1. Solar Collection Module
 
 The solar collection module is the core optical component of the system.
 
@@ -81,7 +83,7 @@ This configuration allows the same incoming solar radiation to support two funct
 
 ---
 
-## 2. Optical Fiber Daylighting
+### 2. Optical Fiber Daylighting
 
 Flexible optical fibers are used to guide concentrated sunlight from the outdoor collection module to the indoor illumination terminal.
 
@@ -91,7 +93,7 @@ The optical path can therefore be arranged around structural obstacles while min
 
 ---
 
-## 3. Dual-Mode Lighting Terminal
+### 3. Dual-Mode Lighting Terminal
 
 The indoor lighting terminal integrates natural-light transmission and electrically powered illumination into a single structure.
 
@@ -133,7 +135,7 @@ This arrangement allows the same lighting terminal to support both optical and e
 
 ---
 
-# Solar Tracking
+## Solar Tracking
 
 Efficient Fresnel-lens concentration requires the optical system to remain properly aligned with incoming sunlight.
 
@@ -150,12 +152,12 @@ This design is also supported by the optical simulations, which show that solar 
 
 ---
 
-# Physical Prototype
+## Physical Prototype
 
 A physical prototype was developed to validate the integrated system architecture.
 
 <p align="center">
-  <img src="figures/prototype.png.jpg" width="560">
+  <img src="figures/prototype.jpg" width="560">
 </p>
 
 The prototype integrates the main functional components of the proposed system, including:
@@ -171,7 +173,7 @@ The prototype was used together with optical simulations to evaluate the feasibi
 
 ---
 
-# Optical Simulation
+## Optical Simulation
 
 Optical modeling and ray-tracing analysis were performed using **TracePro**.
 
@@ -179,7 +181,7 @@ The simulations were used to study how the geometry and operating conditions of 
 
 ---
 
-## TracePro Model
+### TracePro Model
 
 A three-dimensional optical model of the solar collection unit was constructed in TracePro.
 
@@ -197,7 +199,7 @@ The simulation model contains the main optical components of the physical system
 
 ---
 
-## Ray-Tracing Analysis
+### Ray-Tracing Analysis
 
 Ray tracing was used to visualize how incoming light propagates through the Fresnel lens and concentrator.
 
@@ -214,13 +216,13 @@ The analysis provides a visual representation of:
 
 ---
 
-# Parametric Optical Study
+## Parametric Optical Study
 
 Three main optical parameters were investigated using controlled TracePro simulations.
 
 ---
 
-## 1. Incident Angle
+### 1. Incident Angle
 
 The first study investigated how the direction of incoming solar radiation affects the amount of light collected by the system.
 
@@ -236,7 +238,7 @@ This result provides the optical motivation for using an active solar-tracking m
 
 ---
 
-## 2. Lens-to-Receiver Distance
+### 2. Lens-to-Receiver Distance
 
 The second study investigated the vertical distance between the Fresnel lens and the receiving surface.
 
@@ -252,7 +254,7 @@ This parameter directly influenced the final geometry of the concentrator.
 
 ---
 
-## 3. Fresnel Lens Focal Length
+### 3. Fresnel Lens Focal Length
 
 The third study examined the influence of Fresnel-lens focal length on the optical-energy distribution.
 
@@ -273,7 +275,7 @@ Together, these simulations provided guidance for optimizing the geometry of the
 
 ---
 
-# Engineering Workflow
+## Engineering Workflow
 
 ```text
 System Concept
@@ -308,7 +310,7 @@ System Validation
 
 ---
 
-# Published Patent
+## Published Patent
 
 This project resulted in a **published utility model patent**:
 
@@ -331,7 +333,7 @@ The central concept is an integrated **dual-use solar-energy architecture**, whe
 
 ---
 
-# Project Scope
+## Project Scope
 
 The project involved work across multiple engineering areas:
 
@@ -361,7 +363,7 @@ The project involved work across multiple engineering areas:
 
 ---
 
-# Tools & Technologies
+## Tools & Technologies
 
 | Category | Tools / Technologies |
 |---|---|
@@ -375,7 +377,7 @@ The project involved work across multiple engineering areas:
 
 ---
 
-# Repository Structure
+## Repository Structure
 
 ```text
 solar-optical-lighting-system/
@@ -386,7 +388,7 @@ solar-optical-lighting-system/
     ├── system-overview.png
     ├── solar-collector.png
     ├── lighting-terminal.png
-    ├── prototype.png.jpg
+    ├── prototype.jpg
     ├── tracepro-model.png
     ├── ray-tracing.png
     ├── incident-angle.png
@@ -396,7 +398,7 @@ solar-optical-lighting-system/
 
 ---
 
-# Authors
+## Authors
 
 **Wang Weiran**  
 **Ding Yingtong**  
@@ -407,7 +409,7 @@ Beijing University of Technology
 
 ---
 
-# Supervisors
+## Supervisors
 
 **Kang Cunfeng**  
 **Miao Yang**  
@@ -419,4 +421,4 @@ Beijing University of Technology
 
 This repository presents selected engineering design, prototype, and optical simulation results from the project.
 
-The full project documentation is not included in this repository. The repository is intended to provide a concise technical overview of the system architecture, optical simulation workflow, prototype implementation, and associated patented design.
+The full project documentation is not included in this repository. The repository is intended to provide a concise technical overview of the system architecture, optical simulation workflow, prototype implementation, and associated patented design. Original project materials and media remain all rights reserved unless otherwise noted.
